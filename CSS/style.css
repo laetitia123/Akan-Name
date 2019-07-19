@@ -2,11 +2,15 @@ body{
   height:700px;
 }
 form{
+  padding-left:10px;
+  
   height:500px;
-  margin-left: 500px;
+  margin-left: 400px;
+  width: 800px;
+  background-color: rgb(103, 156, 104);
 }
 input[type=text], select, textarea {
-  width: 100%;
+ width:100%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -38,4 +42,8 @@ button:hover {
 #me{
   background-color:rgb(212, 201, 201);
   height: 100px;
+}
+table {
+  border:none;
+  margin-left: 400px;
 }
