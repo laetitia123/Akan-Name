@@ -23,7 +23,7 @@ I am still working on it.
 * html
 * css 
 ## link to my Github account
-{}
+https://laetitia123.github.io/week2-project/
 ## Support and contact details
 Any contribution or support you can concact me on email uwizelaetitia@gmail.com   or om linkedIN my account name islaetitia
 ### License
