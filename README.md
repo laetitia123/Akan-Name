@@ -1,6 +1,6 @@
 # {Get name application}
 #### {when the use input the date of birth and gender the application display the day he is born}, 
-#### By **{List of contributors}**
+
 ## Description
 This application is made  for people in Ghana.
 if you enter your date of birth and  your gender the application gona display the day you were born and your name according to your gender and date of birth.
