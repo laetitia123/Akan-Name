@@ -1,4 +1,4 @@
-# {Get name application}
+# Get name application
 #### when the use input the date of birth and gender the application display the name he/she must be called, 
 
 ## Description
