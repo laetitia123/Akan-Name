@@ -38,6 +38,9 @@ function calculate(form){
         else if (year <=0){
           alert("please fill the correct year");
         }
+        else if(year == ""&& gender=="" && month == ""& day==""){
+          alert("fffffffffffh");
+        }
            else{
              
             if (gender =="male"){
