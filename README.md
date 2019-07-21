@@ -14,8 +14,11 @@ if you enter your date of birth and  your gender the application gona display th
 
 
 ## Known Bugs
-{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
+The must give the akan name on the page not in the alert box.
+I am still working on it.
+
 ## Technologies Used
+Bootstrap
 Javascript
 html
 css 
@@ -24,5 +27,5 @@ css
 ## Support and contact details
 Any contribution or support you can concact me on email uwizelaetitia@gmail.com   or om linkedIN my account name islaetitia
 ### License
-Copyright (c);laetitia {2019} **{}**
+Copyright (c); {2019} **{laetitia}**
   
