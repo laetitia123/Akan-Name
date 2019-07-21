@@ -1,5 +1,5 @@
 # {Get name application}
-#### {when the use input the date of birth and gender the application display the day he is born}, 
+#### when the use input the date of birth and gender the application display the name he/she must be called, 
 
 ## Description
 This application is made  for people in Ghana.

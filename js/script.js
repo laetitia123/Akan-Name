@@ -1,12 +1,17 @@
 function calculate(form){
-        var female=["Kwasi", "Kwadwo", "Kwabena", "Kwaku","Yaw",  "Kofi ","Kwame"];
+        var female=["Kwasi", "wadwo", "Kwabena", "Kwaku","Yaw",  "Kofi ","Kwame"];
         var male =["Akosua","Adwoa", "Abenaa", "Akua", "Yaa","Afua" ,"Ama"]
+        var Days=["Sunday",",Monday", "Tuesday", "Wednesday", "Thursday","Friday" ,"Saturday"]
         
-        var year = document.forms["form"]["year"].value;
+        var year = document.getElementById("year").value;
        
-        var gender = document.forms["form"]["gender"].value;
-        var month= document.forms["form"]["month"].value;
-        var day= document.forms["form"]["day"].value;
+        var gender = document.getElementById("form").value;
+        var gender=document.querySelector("input[name='gender']:checked").value;
+        console.log(gender);
+        var month= document.getElementById("month").value;
+
+        var day= document.getElementById("day").value;
+        console.log(day);
         var yy=parseInt(year);
         var dd=parseInt(day);
         var mm=parseInt(month);
@@ -35,13 +40,14 @@ function calculate(form){
         }
            else{
              
-            //  document.write(Math.round(d));
             if (gender =="male"){
-              alert( "you name is"+ "" + (male[Math.round(d)]));
-              // document.getElementById("me")=male[Math.round(d)] ;
+              document.getElementById("d").innerHTML=("you are born on " + Days[Math.round(d)]);
+              document.getElementById("me").textContent=("your name is" +  male[Math.round(d)]);
+
             }
             else{
-              alert( "you name is"+ "" + (female[Math.round(d)]));
+              document.getElementById("d").innerHTML=("you are born on " + Days[Math.round(d)]);
+              document.getElementById("me").textContent=("your name is" +  female[Math.round(d)]);
             }
           }
         }

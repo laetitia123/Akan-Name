@@ -1,5 +1,5 @@
 body{
-  height:800px;
+  height:1200px;
   background-image:url('../images/birth.jpg');
   background-size:cover;
 }
@@ -7,7 +7,7 @@ body{
   color: #ccc;
   background-color: black;
 }
-form{
+#form{
   padding-top:40px;
   color: #ccc;
   height:500px;
@@ -50,8 +50,17 @@ button:hover {
   padding: 20px;
 } */
 #me{
-  /* background-color:grey; */
-  height:100px;
+  margin-top:60px;
+  margin-left: 500px;
+  font-size:24px;
+  color: black;
+
+
+}
+#d{
+  margin-left: 500px;
+  font-size:24px;
+  color: black;
 }
 table {
   border:none;
