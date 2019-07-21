@@ -27,5 +27,5 @@ css
 ## Support and contact details
 Any contribution or support you can concact me on email uwizelaetitia@gmail.com   or om linkedIN my account name islaetitia
 ### License
-Copyright (c); {2019} **{laetitia}**
+Copyright (c); 2019**Laetitia**
   
