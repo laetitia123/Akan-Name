@@ -34,13 +34,14 @@ function calculate(form){
           alert("please fill the correct year");
         }
            else{
-            //  alert(Math.round(d));
+             
             //  document.write(Math.round(d));
             if (gender =="male"){
-              document.getElementById("me")=male[Math.round(d)];
+              alert( "you name is"+ "" + (male[Math.round(d)]));
+              // document.getElementById("me")=male[Math.round(d)] ;
             }
             else{
-              alert(female[Math.round(d)]);
+              alert( "you name is"+ "" + (female[Math.round(d)]));
             }
           }
         }
