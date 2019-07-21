@@ -1,5 +1,7 @@
 body{
   height:800px;
+  background-image:url('../images/akan2.png');
+  background-size:cover;
 }
 form{
   padding-left:10px;
