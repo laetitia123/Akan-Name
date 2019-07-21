@@ -18,10 +18,10 @@ The must give the akan name on the page not in the alert box.
 I am still working on it.
 
 ## Technologies Used
-Bootstrap
-Javascript
-html
-css 
+* Bootstrap
+* Javascript
+* html
+* css 
 ## link to my Github account
 {}
 ## Support and contact details
