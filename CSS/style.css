@@ -3,6 +3,10 @@ body{
   background-image:url('../images/akan2.png');
   background-size:cover;
 }
+.table-dark{
+  color: #ccc;
+  background-color: black;
+}
 form{
   padding-left:10px;
   
