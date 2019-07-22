@@ -2,7 +2,8 @@
 #### when the use input the date of birth and gender the application display the name he/she must be called, 
 
 ## Description
-This application is made  for people in Ghana.
+This application is made for people in Ghana.
+in ghana the are names given to the born according to the day he /she is born
 if you enter your date of birth and  your gender the application gona display the day you were born and your name according to your gender and date of birth.
 
 
