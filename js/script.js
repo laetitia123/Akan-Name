@@ -1,4 +1,4 @@
-function calculate(form){
+function calculate(){
         var female=["Kwasi", "wadwo", "Kwabena", "Kwaku","Yaw",  "Kofi ","Kwame"];
         var male =["Akosua","Adwoa", "Abenaa", "Akua", "Yaa","Afua" ,"Ama"]
         var Days=["Sunday",",Monday", "Tuesday", "Wednesday", "Thursday","Friday" ,"Saturday"]
@@ -55,4 +55,7 @@ function calculate(form){
               document.getElementById("me").textContent=("your  Akan name is " +  female[Math.round(d)]);
             }
           }
-        }
+        };
+        function resetform() {
+          document.getElementById("myform").reset();
+          }; 

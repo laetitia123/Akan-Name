@@ -3,10 +3,11 @@
 
 ## Description
 This application is made for people in Ghana.
-in ghana the are names given to the born according to the day he /she is born
+in Ghana the are names given to the born according to the day he /she is born
 if you enter your date of birth and  your gender the application gona display the day you were born and your name according to your gender and date of birth.
-
-
+* The user has to fill the form correctelly.
+* after filling the form the use has to click on submit button
+* then his/her name will be displayed at the bottom of the form
 ## Setup/Installation Requirements
 * computer with Internet
 * Google clome to get the Webpage
@@ -15,8 +16,7 @@ if you enter your date of birth and  your gender the application gona display th
 
 
 ## Known Bugs
-The must give the akan name on the page not in the alert box.
-I am still working on it.
+Reset button is not there ,i am still working on it to make it clear the form.
 
 ## Technologies Used
 * Bootstrap
