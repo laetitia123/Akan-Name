@@ -11,20 +11,25 @@ function calculate(form){
         var month= document.getElementById("month").value;
 
         var day= document.getElementById("day").value;
-        console.log(day);
+       
         var yy=parseInt(year);
         var dd=parseInt(day);
         var mm=parseInt(month);
         var CC=(year-1)/100+1;
         var d=( ( (CC/4)-2*CC-1)+((5*yy/4) )+((26*(mm+1)/10)) +dd )%7;
        
-        if (year == ""|| gender=="")
+        if (year == ""|| gender=="" )
         
         {
         alert("Please fill all ");
         
         }
         else if (month == ""|| day=="")
+        {
+        alert("Please fill all ");
+        
+        }
+        else if (gender== ""|| day=="")
         {
         alert("Please fill all ");
         
@@ -38,7 +43,7 @@ function calculate(form){
         else if (year <=0){
           alert("please fill the correct year");
         }
-        else if(year == ""&& gender=="" && month == ""& day==""){
+        else if((year == ""|| gender=="") &&( month == ""||day=="")){
           alert("fffffffffffh");
         }
            else{
