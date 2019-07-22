@@ -4,14 +4,12 @@ function calculate(form){
         var Days=["Sunday",",Monday", "Tuesday", "Wednesday", "Thursday","Friday" ,"Saturday"]
         
         var year = document.getElementById("year").value;
-       
-        var gender = document.getElementById("form").value;
+      
         var gender=document.querySelector("input[name='gender']:checked").value;
         console.log(gender);
         var month= document.getElementById("month").value;
-
         var day= document.getElementById("day").value;
-       
+       document.getElementById("get").innerHTML= "your date is "+ day +"/" +month +"/" +year;
         var yy=parseInt(year);
         var dd=parseInt(day);
         var mm=parseInt(month);
@@ -43,19 +41,18 @@ function calculate(form){
         else if (year <=0){
           alert("please fill the correct year");
         }
-        else if((year == ""|| gender=="") &&( month == ""||day=="")){
-          alert("fffffffffffh");
-        }
+       
+      
            else{
              
             if (gender =="male"){
               document.getElementById("d").innerHTML=("you are born on " + Days[Math.round(d)]);
-              document.getElementById("me").textContent=("your name is" +  male[Math.round(d)]);
+              document.getElementById("me").textContent=("your akan name is" +  male[Math.round(d)]);
 
             }
             else{
               document.getElementById("d").innerHTML=("you are born on " + Days[Math.round(d)]);
-              document.getElementById("me").textContent=("your name is" +  female[Math.round(d)]);
+              document.getElementById("me").textContent=("your  Akan name is " +  female[Math.round(d)]);
             }
           }
         }
