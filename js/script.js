@@ -16,7 +16,7 @@ function calculate(){
         var CC=(year-1)/100+1;
         var d=( ( (CC/4)-2*CC-1)+((5*yy/4) )+((26*(mm+1)/10)) +dd )%7;
        
-        if (year == ""|| gender=="" )
+        if (year== ""|| gender=="" )
         
         {
         alert("Please fill all ");
@@ -25,12 +25,11 @@ function calculate(){
         else if (month == ""|| day=="")
         {
         alert("Please fill all ");
-        
         }
-        else if (gender== ""|| day=="")
-        {
-        alert("Please fill all ");
+        else if(gender==""){
+          alert("pease fill the gender")
         
+       
         }
         else if(month<=0||month >12){
         alert("please fill the correct month input");
@@ -55,7 +54,5 @@ function calculate(){
               document.getElementById("me").textContent=("your  Akan name is " +  female[Math.round(d)]);
             }
           }
-        };
-        function resetform() {
-          document.getElementById("myform").reset();
-          }; 
+        }
+        

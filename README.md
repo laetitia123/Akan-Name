@@ -26,7 +26,7 @@ Reset button is not there ,i am still working on it to make it clear the form.
 ## link to my Github account
 https://laetitia123.github.io/week2-project/
 ## Support and contact details
-Any contribution or support you can concact me on email uwizelaetitia@gmail.com   or om linkedIn my account name islaetitia
+Any contribution or support you can concact me on email uwizelaetitia@gmail.com   or on linkedIn my account name islaetitia
 ### License
 Copyright (c); 2019**Laetitia**
   
