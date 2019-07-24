@@ -1,6 +1,6 @@
 function calculate(){
-        var female=["Kwasi", "wadwo", "Kwabena", "Kwaku","Yaw",  "Kofi ","Kwame"];
-        var male =["Akosua","Adwoa", "Abenaa", "Akua", "Yaa","Afua" ,"Ama"]
+        var male=["Kwasi", "wadwo", "Kwabena", "Kwaku","Yaw",  "Kofi ","Kwame"];
+        var female =["Akosua","Adwoa", "Abenaa", "Akua", "Yaa","Afua" ,"Ama"]
         var Days=["Sunday",",Monday", "Tuesday", "Wednesday", "Thursday","Friday" ,"Saturday"]
         
         var year = document.getElementById("year").value;
